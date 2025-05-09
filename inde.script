@@ -1,0 +1,59 @@
+document.addEventListener('DOMContentLoaded', () => {
+    const carListElement = document.getElementById('cars');
+    const carSelectElement = document.getElementById('car-select');
+    const bookingForm = document.getElementById('form');
+    const bookingMessage = document.getElementById('booking-message');
+
+    // Fetch car listings from backend API
+    fetch('/api/cars')
+        .then(response => response.json())
+        .then(cars => {
+            cars.forEach(car => {
+                // Add car to the list
+                const li = document.createElement('li');
+                li.textContent = `${car.year} ${car.make} ${car.model} - $${car.price_per_day} per day`;
+                carListElement.appendChild(li);
+
+                // Add car to the select dropdown
+                const option = document.createElement('option');
+                option.value = car.id;
+                option.textContent = `${car.make} ${car.model}`;
+                carSelectElement.appendChild(option);
+            });
+        })
+        .catch(error => {
+            carListElement.textContent = 'Failed to load car listings.';
+            console.error('Error fetching cars:', error);
+        });
+
+    // Handle booking form submission
+    bookingForm.addEventListener('submit', (event) => {
+        event.preventDefault();
+        const carId = parseInt(carSelectElement.value);
+        const userName = document.getElementById('user-name').value;
+
+        fetch('/api/book', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ car_id: carId, user_name: userName })
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.error) {
+                bookingMessage.textContent = `Error: ${data.error}`;
+                bookingMessage.style.color = 'red';
+            } else {
+                bookingMessage.textContent = data.message;
+                bookingMessage.style.color = 'green';
+                bookingForm.reset();
+            }
+        })
+        .catch(error => {
+            bookingMessage.textContent = 'Booking failed. Please try again.';
+            bookingMessage.style.color = 'red';
+            console.error('Error booking car:', error);
+        });
+    });
+});

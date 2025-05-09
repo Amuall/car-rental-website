@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(welcome-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    background-color:rgb(168, 23, 23);
+    color:black;
+    padding: 10px 10px;
+    justify-content: space-between;
+    height: 80px;
+    width: 98.5%;
+    
+}
+.hero {
+    font-size:40px;
+}
+ .img1 {
+    height: 70px;
+     border-radius: 20px;
+     margin-top: 10px;
+ }
+ .ero {
+    font-size:40px;
+    margin-top: -65PX;
+    margin-left: 80px;
+ }
+ ul {
+    display: flex;
+    gap: 50px;
+    margin-left: 600px;
+    margin-top: -30px;
+ }
+ li {
+    list-style: none;
+ }
+ li a {
+    text-decoration: none;
+    font-style: bold;
+    font-size: 18px;
+    color: black;
+ }
+ .welcome {
+    color:white;
+    font-weight: 50px;
+    padding: 20px 20px;
+ }
+ .bld {
+    font-size: 40px;
+    height: 1000px;
+ }
+ .seco {
+    color:white;
+    margin-top: -20px;
+    margin-left: 20px;
+    font-weight: 50px;
+   
+ }
+ .kis {
+    margin-left: 40px;
+ }
+ .kiny {
+background-color: brown;
+height: 50px;
+width: 80%;
+border-radius: 20px;
+ }
+ .engl {
+background-color: brown;
+height: 50px;
+width: 80%;
+border-radius: 20px;
+margin: 10px;
+ }
+ .button {
+    margin-left: 800px;
+    padding: 20px 20px;
+    
+ }
+ .button h3 {
+    color: rgb(20, 255, 181);
+ }
