@@ -1,0 +1,10 @@
+li a {
+    text-decoration: none;
+    font-style: bold;
+    font-size: 18px;
+    color: black;
+    transition: 0.1s;
+ }
+ li a:hover{
+   border-bottom: 3px solid black;
+ }
