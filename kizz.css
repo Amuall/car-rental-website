@@ -116,6 +116,7 @@ header {
       height: 150px;
       width: 100%;
     }
+<<<<<<< HEAD
   button{
    padding: 10px;
    width: 200px;
@@ -124,4 +125,89 @@ header {
    font-family: Georgia, 'Times New Roman', Times, serif;
    border: none;
    border-radius: 5px;
+=======
+  .sec1 {
+      text-align: center;
+  padding: 2rem;
+  }
+  .car5 {
+   background: white;
+   border-radius: 10px;
+   box-shadow: 0 2px 8px slategray;
+   overflow: hidden;
+   width: 250px;
+   transition: transform 0.3s ease;
+   padding: 30px;
+}
+.car6 {
+   background: white;
+   border-radius: 10px;
+   box-shadow: 0 2px 8px slategray;
+   overflow: hidden;
+   width: 250px;
+   transition: transform 0.3s ease;
+   padding: 30px;
+}
+.car5:hover {
+   transform: scale(1.05);
+}
+.car6:hover {
+   transform: scale(1.05);
+}
+.car5 img {
+   height: 150px;
+   width: 100%;
+ }
+ .car6 img {
+   height: 150px;
+   width: 100%;
+ }
+ .car7 {
+   background: white;
+   border-radius: 10px;
+   box-shadow: 0 2px 8px slategray;
+   overflow: hidden;
+   width: 250px;
+   transition: transform 0.3s ease;
+   padding: 30px;
+}
+.car8 {
+   background: white;
+   border-radius: 10px;
+   box-shadow: 0 2px 8px slategray;
+   overflow: hidden;
+   width: 250px;
+   transition: transform 0.3s ease;
+   padding: 30px;
+}
+.car9 {
+   background: white;
+   border-radius: 10px;
+   box-shadow: 0 2px 8px slategray;
+   overflow: hidden;
+   width: 250px;
+   transition: transform 0.3s ease;
+   padding: 30px;
+}
+.car7 img {
+   height: 150px;
+   width: 100%;
+ }
+ .car8 img {
+   height: 150px;
+   width: 100%;
+ }
+ .car9 img {
+   height: 150px;
+   width: 100%;
+ }
+ .car7:hover {
+   transform: scale(1.05);
+}
+.car8:hover {
+   transform: scale(1.05);
+}
+.car9:hover {
+   transform: scale(1.05);
+>>>>>>> 25aaa1e (hello)
 }
