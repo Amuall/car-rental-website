@@ -8,3 +8,110 @@ li a {
  li a:hover{
    border-bottom: 3px solid black;
  }
+
+ body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+.header {
+  background-color: rgba(209, 159, 83, 0.792);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.form-section {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+.form-section h2 {
+  margin: 0;
+}
+.form-section span {
+  color: #8bc34a;
+  font-weight: bold;
+}
+.form-container {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgb(0, 0, 0);
+}
+.form-container input,
+.form-container textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.form-container button {
+  background-color: #0d6b16;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+.profile{
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-size: 30px;
+}
+.pro {
+   font-size:40px;
+}
+  
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #333;
+  font-size: 14px;
+  background-color: rebeccapurple;
+  height: 40px;
+  border-radius: 10px;
+}
+.div1 {
+  height: 60px;
+  justify-content: center;
+  justify-items: center;
+
+}
+.div2 {
+  background-color: rgba(0, 0, 0, 0.128);
+  height: 40px;
+  width: 101.5%;
+ padding: 10px;
+ border-radius: 10px;
+ box-shadow:  0 2px 8px slategray;
+ overflow: hidden;
+ margin-left: -15px;
+}
+.div4 {
+  background-color: rgba(0, 0, 0, 0.128);
+  height: 40px;
+  width: 1233px;
+ padding: 10px;
+ border-radius: 10px;
+ box-shadow:  0 2px 8px slategray;
+ overflow: hidden;
+ margin-left: -15px;
+}
+.div5 {
+  background-color: rgba(0, 0, 0, 0.128);
+  height: 40px;
+ padding: 10px;
+ border-radius: 10px;
+ box-shadow:  0 2px 8px slategray;
+ overflow: hidden;
+margin-left: -15px;
+width: 1233px;
+}
