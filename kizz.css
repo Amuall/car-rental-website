@@ -3,6 +3,7 @@ body {
     font-family: Arial, sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgb(223, 223, 223);
 }
 header {
     background-color:rgb(168, 23, 23);
@@ -209,3 +210,159 @@ header {
 .car9:hover {
    transform: scale(1.05);
 }
+.all-img{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 50vh;
+   margin: 10px;
+}
+.first-img img{
+   border-radius: 100%;
+   height: 300px;
+   width: 300px;
+   border: 4px dotted green;
+   padding: 5px;
+}
+.second-img img{
+   border-radius: 100%;
+   height: 300px;
+   width: 300px;
+   border: 4px dotted green;
+   padding: 5px;
+}
+.third-img img{
+   border-radius: 100%;
+   height: 300px;
+   width: 300px;
+   border: 4px dotted green;
+   padding: 5px;
+}
+.p{
+   text-align: center;
+   padding: 5px;
+   height: auto;
+   width: auto;
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+   border: none;
+}
+.social-icons {
+   display: flex;
+   gap: 15px;
+   font-size: 30px;
+   justify-content: center;
+ }
+
+ .social-icons a {
+   text-decoration: none;
+   color: white;
+   padding: 10px;
+   border-radius: 50%;
+   transition: 0.3s;
+ }
+
+ .social-icons .facebook { background-color: black; }
+ .social-icons .whatsapp { background-color: black; }
+ .social-icons .instagram { background: black }
+ .social-icons .x-twitter { background-color: #000; }
+
+ .social-icons a:hover {
+   transform: scale(1.1);
+ }
+ .ok-img{
+   border: 3px double red;
+   padding: 5px;
+ }
+ @media (max-width: 768px) {
+   header {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     height: auto;
+     width: 100%;
+     padding: 10px;
+     text-align: center;
+   }
+   .hero img {
+     width: 60px;
+     height: auto;
+   }
+   .ero {
+     font-size: 28px;
+     margin: 5px 0;
+   }
+   nav ul {
+     flex-direction: column;
+     gap: 10px;
+     margin: 10px 0;
+     padding: 0;
+     align-items: center;
+   }
+   nav ul li {
+     margin: 0;
+   }
+   nav ul li a {
+     font-size: 16px;
+     color: white;
+   }
+   .availa {
+     padding: 10px;
+     text-align: center;
+   }
+   .availa h1 {
+     font-size: 22px;
+   }
+   .availa p {
+     font-size: 16px;
+   }
+   body{
+      background-color: aliceblue;
+
+   }
+   .car {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 1rem;
+     margin-top: 1rem;
+     padding: 10px;
+   }
+   .car1, .car2, .car3, .car4, .car5, .car6, .car7, .car8, .car9 {
+     width: 90%;
+     padding: 15px;
+   }
+   .car1 img, .car2 img, .car3 img, .car4 img,
+   .car5 img, .car6 img, .car7 img, .car8 img, .car9 img {
+     height: auto;
+     width: 100%;
+   }
+   button {
+     width: 100%;
+     padding: 10px;
+     font-size: 16px;
+   }
+   .all-img {
+     flex-direction: column;
+     gap: 20px;
+   }
+ 
+   .first-img img, .second-img img, .third-img img {
+     width: 200px;
+     height: 200px;
+   }
+   .social-icons {
+     flex-direction: row;
+     gap: 15px;
+     font-size: 24px;
+     justify-content: center;
+     margin-top: 15px;
+   }
+   .p {
+     padding: 30px;
+     background-color: white;
+     font-size: 14px;
+     border-radius: 6px;
+   }
+ }
+ 

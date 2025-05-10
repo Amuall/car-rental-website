@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>booking form</title>
+</head>
+
+<style>
+    body{
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        min-height: 98vh;
+        display: block;
+        margin: 0;
+        padding: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .bebe{
+        background-color: rgb(228, 228, 228);
+        box-shadow: 0px 0px 10px black;
+        border-radius: 5px;
+        padding: 20px;
+        width: 600px;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        margin-left: 350px;
+    }
+    input,select{
+        width: 580px;
+        height: 30px;
+        outline: none;
+    }
+    textarea{
+        width: 580px;
+        height: 50px; 
+    }
+    .button{
+        padding: 10px;
+        width: 580px;
+        background-color: blue;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        height: 40px;
+    }
+    header {
+    background-color:rgb(168, 23, 23);
+    color:black;
+    padding: 10px 10px;
+    justify-content: space-between;
+    height: 90px;
+    width: 98.5%;
+    
+}
+.hero {
+    font-size:40px;
+}
+ .img1 {
+    height: 70px;
+     border-radius: 20px;
+     margin-top: 10px;
+ }
+ .ero {
+    font-size:40px;
+    margin-top: -65PX;
+    margin-left: 80px;
+ }
+ ul {
+    display: flex;
+    gap: 50px;
+    margin-left: 600px;
+    margin-top: -30px;
+ }
+ li {
+    list-style: none;
+ }
+ li a {
+    text-decoration: none;
+    font-style: bold;
+    font-size: 18px;
+    color: black;
+ }
+ @media (max-width: 768px) {
+    .bebe {
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    input, select, textarea {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    ul {
+        display: block;
+        margin-left: 0;
+        text-align: center;
+        padding: 0;
+    }
+
+    li {
+        margin: 10px 0;
+    }
+
+    .img1 {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .ero {
+        text-align: center;
+        margin-left: 0;
+        margin-top: 10px;
+        font-size: 28px;
+    }
+
+    header {
+        height: auto;
+        padding-bottom: 20px;
+    }
+}
+
+</style>
+<body>
+    <header>
+        <div class="hero"><img src="favicon.png" alt="logo" class="img1"></div>
+        <div class="ero"><strong class="h1">ASCAR</strong></div><br><br>
+         <nav>
+             <ul>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="cars.html">Available cars</a></li>
+                 <li><a href="booking.html">Book Now</a></li>
+                 <li><a href="about.html">About us</a></li>
+                 <li><a href="contact.html">contact us</a></li>
+             </ul>
+         </nav>
+        </header> <br><br>
+    <div class="bebe">
+        <h1 style="text-align: center; color: rgb(108, 108, 241);">Apply for a Car Loan</h1>
+        <label for="name">you name:</label><br>
+        <input type="text" name="name">
+        <br><br>
+        <label for="number">number:</label><br>
+        <input type="tel" name="name">
+        <br><br>
+        <label for="car">the car you want to rent:</label><br>
+        <select>
+            <option value="car">BMW</option>
+            <option value="car">Mercedes</option>
+            <option value="car">lamborgin</option>
+            <option value="car">Roll-Royce</option>
+            <option value="car">honda</option>
+            <option value="car">Toyota</option>
+            <option value="car">poche</option>
+            <option value="car">Audi</option>
+        </select>
+        <br><br>
+        <label for="car">it time to start renting:</label><br>
+        <input type="date" name="name">
+        <br><br>
+        <label for="rant">when to finish loan:</label><br>
+        <input type="date" name="name">
+        <br><br>
+        <label for="car">if you need car:</label><br>
+        <select>
+            <option value="self">self-driving car only</option>
+            <option value="other">Car with driver</option>
+        </select>
+        <br><br>
+        <label for="where">where to drive (city/town):</label><br>
+        <input type="text" name="name">
+        <br><br>
+        <label>Additional details or special requests:</label><br>
+        <textarea name="needs" placeholder="Example: I prefer a car with AC, automatic transmission, etc."></textarea>
+        <br><br>
+        <input type="submit" value="send" class="button">
+    </div>
+</body>
+</html>

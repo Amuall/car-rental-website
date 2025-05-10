@@ -87,3 +87,63 @@ margin: 10px;
  .button h3 {
     color: rgb(20, 255, 181);
  }
+ @media (max-width: 768px) {
+   header {
+     height: auto;
+     flex-direction: column;
+   }
+ 
+   ul {
+     display: block;
+     margin-left: 0;
+     margin-top: 10px;
+     text-align: center;
+     padding: 0;
+   }
+ 
+   li {
+     margin: 10px 0;
+   }
+ 
+   .img1 {
+     height: 60px;
+     margin: 10px auto;
+     display: block;
+   }
+ 
+   .ero {
+     font-size: 28px;
+     margin: 10px auto;
+     text-align: center;
+   }
+ 
+   .bld {
+     font-size: 26px;
+     text-align: center;
+   }
+ 
+   .seco {
+     font-size: 18px;
+     text-align: center;
+     margin: 10px;
+   }
+ 
+   .kis {
+     margin-left: 0;
+     display: block;
+   }
+ 
+   .button {
+     margin-left: 0;
+     text-align: center;
+     padding: 10px;
+   }
+ 
+   .phone a {
+     display: block;
+     text-align: center;
+     margin-top: 10px;
+     font-size: 16px;
+   }
+ }
+ 
