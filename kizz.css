@@ -209,3 +209,67 @@ header {
 .car9:hover {
    transform: scale(1.05);
 }
+.all-img{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 50vh;
+   margin: 10px;
+}
+.first-img img{
+   border-radius: 100%;
+   height: 300px;
+   width: 300px;
+   border: 4px dotted green;
+   padding: 5px;
+}
+.second-img img{
+   border-radius: 100%;
+   height: 300px;
+   width: 300px;
+   border: 4px dotted green;
+   padding: 5px;
+}
+.third-img img{
+   border-radius: 100%;
+   height: 300px;
+   width: 300px;
+   border: 4px dotted green;
+   padding: 5px;
+}
+.p{
+   text-align: center;
+   padding: 5px;
+   height: auto;
+   width: auto;
+   border-radius: 5px;
+   box-shadow: 1px 1px 1px black , 1px 1px 1px black;
+   border: none;
+}
+.social-icons {
+   display: flex;
+   gap: 15px;
+   font-size: 30px;
+   justify-content: center;
+ }
+
+ .social-icons a {
+   text-decoration: none;
+   color: white;
+   padding: 10px;
+   border-radius: 50%;
+   transition: 0.3s;
+ }
+
+ .social-icons .facebook { background-color: black; }
+ .social-icons .whatsapp { background-color: black; }
+ .social-icons .instagram { background: black }
+ .social-icons .x-twitter { background-color: #000; }
+
+ .social-icons a:hover {
+   transform: scale(1.1);
+ }
+ .ok-img{
+   border: 3px double red;
+   padding: 5px;
+ }
